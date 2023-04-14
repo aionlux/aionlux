@@ -34,9 +34,9 @@ jobs:
         run: npm run build
 
       - name: Deploy to cPanel
-        uses: samuelmeuli/action-ftp-deploy@4.0.0
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: aionlux.com
+          server:  ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist
