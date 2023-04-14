@@ -4,3 +4,4 @@
 
 ------------------------------------------------
 ![CI](https://github.com/aionlux/aionlux/actions/workflows/ci.yml/badge.svg)
+![deploy](https://github.com/aionlux/aionlux/actions/workflows/deploy.yml/badge.svg)
