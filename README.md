@@ -3,3 +3,4 @@
 </div> 
 
 ------------------------------------------------
+![CI](https://github.com/aionlux/aionlux/actions/workflows/ci.yml/badge.svg)
