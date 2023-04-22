@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <div>
-        <a href="https://aionlux.com" target="_blank">
+        <div>
           <img src={aionluxLogo} className="logo" alt="Vite logo" />
-        </a>
+        </div>
       </div>
       <h1>Welcome to Aionlux</h1>
     </div>
