@@ -1,0 +1,153 @@
+$color_1: #13A792;
+$color_2: #61ECD7;
+$color_3: #1AE8C9;
+$color_4: #2B695F;
+$color_5: #14B59D;
+$color_6: #088677;
+$color_light: #f5f5f5;
+$color_dark: #1a1a1a;
+
+$a_color: #242424;
+$a_color_hover: #14B59D;
+$button_color: #1a1a1a;
+$button_color_hover: #2B695F;
+
+.wrap {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.main {
+  padding-bottom: 130px;
+}
+
+.footer {
+  position: relative;
+  margin-top: -130px;
+  height: 130px;
+}
+
+.section-m {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.section-1 {
+  position: relative;
+  height: 100vh;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+
+.section-1-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  z-index: 2;
+  letter-spacing: 5px;
+}
+
+// portal section
+.portal-phrase {
+  width: 80%;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.portal-title {
+  font-size: 50px;
+  color: $color_6;
+}
+
+.portal-title-span {
+  color: #fff;
+  background-color: $color_6;
+}
+
+
+.portal-title-span {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: $color_dark; }
+}
+
+
+.portal-subtitle {
+  font-weight: 600;
+  margin-top: 40px;
+  font-size: 20px;
+  color: $color_dark;
+}
+
+.principal__message-button {
+  margin-top: 40px;
+  color: $color_light;
+  border: none;
+  font-size: 30px;
+  padding: 10px 30px;
+  transition: all 0.4s;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+
+@media screen and (max-width: 450px) {
+  .portal-title {
+    font-size: 2.3rem;
+  }
+
+  .portal-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .principal__message-button {
+    font-size: 1.2rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1286px) {
+  .section-1-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1136px) {
+  .portal-media {
+    display: none;
+  }
+
+  .section-1-content {
+    grid-template-columns: 1fr;
+  }
+}
