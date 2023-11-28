@@ -87,11 +87,11 @@ const Header: React.FC = () => {
           </div>
 
           <div className="nav-bar__buttons">
-            <Link
+            {/* <Link
               className="nav-bar__buttons-item"
               to=""
             >_NOSOTROS</Link>
-            
+             */}
           </div>
            
         </Container>
