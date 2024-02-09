@@ -9,7 +9,7 @@ const Header: React.FC = () => {
   const [show, setShow] = useState<boolean>(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  const Logo = "https://raw.githubusercontent.com/aionlux/.github/main/resources/img/l3.png"
+  const Logo = "https://raw.githubusercontent.com/aionlux/.github/main/resources/img/ailook/ailook_full_logo.png"
 
   // Change background color on scroll
   const changeBackground = () => {

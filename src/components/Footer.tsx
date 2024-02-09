@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
           </ul>
         </div>
         <p className="home-footer__copyright">
-          2023 &#169; AILOOK - Todos los derechos reservados
+          2024 &#169; AILOOK - Todos los derechos reservados
         </p>
       </div>
     </React.Fragment>
