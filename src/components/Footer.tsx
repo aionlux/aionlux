@@ -11,7 +11,7 @@ const Footer: React.FC<FooterProps> = ({ theme }) => {
     <React.Fragment>
       <div className={`footer-container ${theme}`}>
         <div className="home-footer">
-          <ul className="home-footer__ul">
+          {/* <ul className="home-footer__ul">
             <li className="home-footer__li">
               <Link to="/about/" className="home-footer__link">
                 _Nosotros
@@ -22,7 +22,7 @@ const Footer: React.FC<FooterProps> = ({ theme }) => {
                 _Contacto
               </Link>
             </li>
-          </ul>
+          </ul> */}
         </div>
         <p className="home-footer__copyright">
           2024 &#169; AIONLUX - Todos los derechos reservados

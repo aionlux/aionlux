@@ -113,7 +113,7 @@ body {
   background-color: var(--ax-bg-dark-mode);
 }
 
-/* DARKMODE  */
+/* AIONLUX DARKMODE  */
 .ax-dark-mode {
   background-color: var(--ax-bg-dark-mode);
   color: var(--ax-font-dark-mode);
@@ -134,7 +134,7 @@ body {
   color: var(--ax-btn-font-dark-mode) !important;
 }
 
-/* LIGHT MODE  */
+/* AIONLUX LIGHT MODE  */
 .ax-light-mode {
   background-color: var(--ax-bg-light-mode);
   color: var(--ax-font-light-mode);
