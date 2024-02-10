@@ -1,11 +1,4 @@
-$buttons_font_color: #ffffff;
-$buttons_font_color_hover: #a6bdbe;
-$color_light: #f5f5f5;
-$color_dark: #1a1a1a;
-
-
 .footer-container {
-  background-color: $color_dark;
   width: 100%;
   height: auto;
   padding-top: 40px;
@@ -34,13 +27,11 @@ $color_dark: #1a1a1a;
 .home-footer__link {
   font-weight: bold;
   font-size: 14px;
-  color: $color_light;
   margin: 10px 20px;
   text-transform: uppercase;
 }
 
 .home-footer__copyright {
-  color: $color_light;
   letter-spacing: 0.055em;
   font-weight: bold;
   font-size: 12px;
