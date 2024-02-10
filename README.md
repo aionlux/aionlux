@@ -1,5 +1,6 @@
-<div align="center" style="height:200px;">
-    <img src="https://raw.githubusercontent.com/addleonel/aionlux/main/redocs/logo4.png">
+<div align="center" >
+    <img style="width:200px;"src="https://raw.githubusercontent.com/aionlux/.github/main/resources/img/aionlux/full_logo_black.svg">
+    <p>Explorando la innovación con Inteligencia Artificial</p>
 </div> 
 
 ------------------------------------------------

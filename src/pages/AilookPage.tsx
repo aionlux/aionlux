@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Container, Modal } from "react-bootstrap";
 import YouTube from "react-youtube";
-import Footer from "./Footer";
-import Header from "./Header";
-import "../assets/styles/Main.scss";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import "../assets/styles/AilookPage.css";
 
-const Main: React.FC= () => {
+const AilookPage: React.FC= () => {
   const [show, setShow] = useState<boolean>(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -22,9 +22,6 @@ const Main: React.FC= () => {
             <Header />
             <div className="main">
                 <section className="section-m section-1">
-                  <video className="video-background" controls={false} autoPlay muted loop>
-                    <source src="https://aionlux.com/videos/cars.mp4" type="video/mp4"/>
-                  </video>
                   <div className="section-1-content">
                       <div className="portal-phrase">
                     <Container fluid="xl">
@@ -44,10 +41,9 @@ const Main: React.FC= () => {
             </div>
           </div>
           <div className="footer">
-            <Footer />
           </div>
     </React.Fragment>
   );
 };
 
-export default Main;
+export default AilookPage;

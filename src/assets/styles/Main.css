@@ -1,0 +1,143 @@
+@import url('https://fonts.cdnfonts.com/css/roboto');
+@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+
+/* Wrap config */
+.wrap-index {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.main-index {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-bottom: 130px;
+  color: var(--ax-font-dark-mode);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.footer-index {
+  position: relative;
+  margin-top: -130px;
+  height: 130px;
+}
+
+/* Menubar */
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  /* border:2px solid blue;  */
+}
+
+.main-menubar {
+  background-color: transparent !important;
+  border: none;
+}
+
+.aionlux-logo {
+  width: 150px;
+}
+
+/* Main section */
+.index-section-m {
+  width: 100%;
+  padding: 0;
+  height: 100vh;
+}
+
+.index-section-content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  letter-spacing: 4px;
+}
+
+.index-portal-phrase {
+  width: 80%;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.index-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-portal-title {
+  font-size: 3.6em;
+  text-transform: capitalize;
+  color: var(--ax-font-dark-mode);
+}
+
+.gradient-text {
+  background-image: linear-gradient(to right,#f14a87 50%, #ff8a00 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 10s linear infinite;
+  transition: all 0.3s ease;
+}
+
+@keyframes rainbow {
+  0% {
+    background-image: linear-gradient(to right,#f14a87 50%, #ff8a00 90%);
+  }
+  50% {
+    background-image: linear-gradient(to right,#f14a87 0%, #ff8a00 20%, #f14a87 100%);
+  }
+  100% {
+    background-image: linear-gradient(to right,#f14a87 50%, #ff8a00 90%);
+  }
+}
+
+.gradient-link-button {
+  display: block;
+  color: #fff;
+  width: 50%;
+  text-align: center;
+  background: linear-gradient(to right, #c94949, #5d0727);
+  text-decoration: none;
+  margin: 30px auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #5d0727;
+  animation: rainbow-button 5s linear infinite;
+}
+
+@keyframes rainbow-button {
+  0% { background-position: 0 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0 50%; }
+  
+}
+
+.index-portal-title-span {
+  color: var(--ax-font-dark-mode);
+  background-color: var(--ax-bg-dark-mode);
+}
+
+.index-portal-subtitle {
+  font-weight: 600;
+  margin: 50px 0;
+  font-size: 1em;
+  color: var(--ax-font-dark-mode);
+}
+
+.index-portal-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Media screen*/
+@media screen and (max-width: 450px) {
+  .main-index {
+    font-size: 10px;
+  }
+}

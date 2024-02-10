@@ -1,13 +1,17 @@
-import * as React from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import "../assets/styles/Footer.scss";
+import "../assets/styles/Footer.css";
 
-const Footer: React.FC = () => {
+interface FooterProps {
+  theme: string;
+}
+
+const Footer: React.FC<FooterProps> = ({ theme }) => {
   return (
     <React.Fragment>
-      <div className="footer-container">
+      <div className={`footer-container ${theme}`}>
         <div className="home-footer">
-          <ul className="home-footer__ul">
+          {/* <ul className="home-footer__ul">
             <li className="home-footer__li">
               <Link to="/about/" className="home-footer__link">
                 _Nosotros
@@ -18,10 +22,10 @@ const Footer: React.FC = () => {
                 _Contacto
               </Link>
             </li>
-          </ul>
+          </ul> */}
         </div>
         <p className="home-footer__copyright">
-          2023 &#169; AILOOK - Todos los derechos reservados
+          2024 &#169; AIONLUX - Todos los derechos reservados
         </p>
       </div>
     </React.Fragment>
